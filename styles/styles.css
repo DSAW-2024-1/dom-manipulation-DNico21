@@ -67,8 +67,8 @@ button:hover {
 
 ul li {
   list-style: none;
-  font-size: 17px;
-  padding: 12px 8px 12px 50px;
+  font-size: 16px;
+  padding: 12px 20px 12px 50px; /*12px 8px 12px 50px */
   cursor: pointer;
   position: relative;
 }
@@ -128,7 +128,7 @@ ul li span:hover {
   .add {
     padding: 5px; /* Reducir el relleno */
     margin-bottom: 20px; /* Reducir el margen inferior */
-}
+  }
 
   input {
     padding: 5px; /* Reducir el relleno */
@@ -138,5 +138,13 @@ ul li span:hover {
   button {
     padding: 10px 20px; /* Reducir el relleno */
     font-size: 14px; /* Reducir el tamaño de fuente */
+  }
+
+  ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 5px 40px 12px 50px;
+    cursor: pointer;
+    position: relative;
   }
 }
